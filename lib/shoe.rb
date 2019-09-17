@@ -15,5 +15,5 @@ BRAND = []
   
   def brand= (brand)
     @brand = brand
-    BRAND<< brand
+    BRAND<< brand unless 
 end
