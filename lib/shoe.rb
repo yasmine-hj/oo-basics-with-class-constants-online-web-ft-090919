@@ -15,5 +15,6 @@ BRAND = []
   
   def brand= (brand)
     @brand = brand
-    BRAND<< brand unless BRAND i
+    BRAND<< brand unless BRAND.include?(brand)
+  end
 end
